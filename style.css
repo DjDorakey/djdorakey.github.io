@@ -19,6 +19,13 @@ body {
   backdrop-filter: blur(6px);
   z-index: 1000;
 }
+header h1 {
+  text-shadow:
+    0 0 5px #ff0057,
+    0 0 10px #ff0057,
+    0 0 20px #6a00ff,
+    0 0 40px #6a00ff;
+}
 
 .nav-container {
   max-width: 1200px;
