@@ -72,3 +72,9 @@ footer {
   padding: 20px;
   background: #111;
 }
+.site-logo {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
