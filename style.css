@@ -77,4 +77,14 @@ footer {
   width: auto;
   display: block;
 }
+.logo {
+  height: 50px;        /* logo height */
+  width: auto;         /* width auto */
+  max-width: 180px;    /* limit width */
+}
+
+header, nav {
+  display: flex;
+  align-items: center;
+}
 
