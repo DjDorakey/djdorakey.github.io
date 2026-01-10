@@ -77,10 +77,11 @@ footer {
   width: auto;
   display: block;
 }.logo {
-  height: 200x;      
+  height: 80px;        /* logo clear & visible */
   width: auto;
   max-width: 260px;
   padding: 5px 10px;
 }
+
 
 
