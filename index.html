@@ -4,159 +4,57 @@
   <meta charset="UTF-8">
   <title>DJ Dorakey | Official Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0b0b0b;
-      color: #fff;
-    }
-    header {
-      background: linear-gradient(135deg, #ff0057, #6a00ff);
-      padding: 60px 20px;
-      text-align: center;
-    }
-    header h1 {
-  text-shadow:
-    0 0 5px #ff0057,
-    0 0 10px #ff0057,
-    0 0 20px #6a00ff,
-    0 0 40px #6a00ff;
-}
-    }
-    header p {
-      font-size: 18px;
-      opacity: 0.9;
-    }
-    nav {
-      background: #111;
-      padding: 10px;
-      text-align: center;
-      position: sticky;
-      top: 0;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      color: #ff0057;
-    }
-    section {
-      padding: 50px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      color: #ff0057;
-      margin-bottom: 20px;
-    }
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: #151515;
-      padding: 20px;
-      border-radius: 10px;
-    }
-    iframe {
-      width: 100%;
-      height: 315px;
-      border-radius: 10px;
-      border: none;
-    }
-    footer {
-      background: #000;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      opacity: 0.8;
-    }
-    .btn {
-      display: inline-block;
-      background: #ff0057;
-      color: #fff;
-      padding: 12px 20px;
-      border-radius: 25px;
-      text-decoration: none;
-      margin-top: 10px;
-    }
-    .btn:hover {
-      background: #ff3377;
-    }
-  </style>
+
+  <!-- Font & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- TOP BAR -->
 <header>
-  <h1>DJ Dorakey</h1>
-  <p>Official DJ & Music Producer Website</p>
+  <div class="logo">DORAKEY</div>
+  <div class="social">
+    <a href="#">FB</a>
+    <a href="#">IG</a>
+    <a href="#">YT</a>
+    <a href="#">SP</a>
+  </div>
 </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#youtube">YouTube</a>
-  <a href="#music">Music</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    Hi, I’m <b>DJ Dorakey</b>, an Indian DJ & music producer.
-    I create EDM, Remix, Club & Dutch House tracks.
-    Follow me for high-energy music and official releases.
-  </p>
+<!-- HERO SECTION -->
+<section class="hero">
+  <img src="https://i.imgur.com/6QJjYMe.jpg">
+  <h1>DJ DORAKEY</h1>
+  <p>Official DJ & Music Producer</p>
 </section>
 
-<section id="youtube">
-  <h2>YouTube</h2>
-  <div class="cards">
-    <div class="card">
-      <iframe src="https://youtu.be/y6x-Tvf3CbQ?si=u3V7nykpCTbrFswH"></iframe>
-    </div>
-    <div class="card">
-      <iframe src="https://youtu.be/AIEFCrW17aw?si=iZ8ETWcBYELCVhYT"></iframe>
-    </div>
+<!-- MUSIC PLAYER -->
+<section class="section">
+  <h2>🔥 Latest Mixes</h2>
+
+  <iframe
+    width="100%"
+    height="450"
+    scrolling="no"
+    frameborder="no"
+    allow="autoplay"
+    src="https://w.soundcloud.com/player/?url=https://soundcloud.com/djravishofficial/sets/the-ravish-podcast">
+  </iframe>
+</section>
+
+<!-- VIDEO SECTION -->
+<section class="section">
+  <h2>🎥 DJ Videos</h2>
+
+  <div class="videos">
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
   </div>
 </section>
 
-<section id="<audio controls style="width:100%; margin-top:10px;">
-  <source src="https://example.com/your-music.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>">
-  <h2>Music</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Latest Track</h3>
-      <p>Listen on SoundCloud / Download MP3</p>
-      <a class="btn" href="#" target="_blank">Listen Now</a>
-    </div>
-    <div class="card">
-      <h3>Remix Pack</h3>
-      <p>High quality club remixes</p>
-      <a class="btn" href="#" target="_blank">Download</a>
-    </div>
-  </div>
-</section>
-
-<section id="<a class="btn" href="https://wa.me/919382381651" target="_blank">
-  WhatsApp Booking
-</a>">
-  <h2>Contact</h2>
-  <p>For booking & collaboration</p>
-  <p>
-    📧 Email: djdorakey@gmail.com <br>
-    📱 WhatsApp: +91-XXXXXXXXXX <br>
-    📸 Instagram: @djdorakey
-  </p>
-</section>
-
+<!-- FOOTER -->
 <footer>
   © 2026 DJ Dorakey | All Rights Reserved
 </footer>
