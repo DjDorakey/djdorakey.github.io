@@ -2,59 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>DJ Dorakey | Official Website</title>
+  <title>DJ Dorakey | Official</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Font & Icons -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- TOP BAR -->
-<header>
+<!-- NAVBAR -->
+<header class="navbar">
   <div class="logo">DORAKEY</div>
-  <div class="social">
-    <a href="#">FB</a>
-    <a href="#">IG</a>
-    <a href="#">YT</a>
-    <a href="#">SP</a>
-  </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#story">My Story</a>
+    <a href="#music">Music</a>
+    <a href="#videos">Videos</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<!-- HERO SECTION -->
-<section class="hero">
-  <img src="https://i.imgur.com/6QJjYMe.jpg">
-  <h1>DJ DORAKEY</h1>
-  <p>Official DJ & Music Producer</p>
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>DJ DORAKEY</h1>
+    <p>Official DJ Website</p>
+  </div>
 </section>
 
-<!-- MUSIC PLAYER -->
-<section class="section">
-  <h2>🔥 Latest Mixes</h2>
+<!-- STORY -->
+<section id="story" class="section">
+  <h2>My Story</h2>
+  <p>
+    DJ Dorakey – Electronic & Club Remix Producer from India.  
+    Specialised in EDM, Club & DJ Remixes.
+  </p>
+</section>
 
-  <iframe
-    width="100%"
-    height="450"
-    scrolling="no"
-    frameborder="no"
+<!-- MUSIC -->
+<section id="music" class="section">
+  <h2>Latest Music</h2>
+
+  <!-- SoundCloud Embed -->
+  <iframe 
+    width="100%" 
+    height="300" 
+    scrolling="no" 
+    frameborder="no" 
     allow="autoplay"
-    src="https://hearthis.at/djdorakey/">
+    src="https://w.soundcloud.com/player/?url=https://soundcloud.com/dj-ravish">
   </iframe>
 </section>
 
-<!-- VIDEO SECTION -->
-<section class="section">
-  <h2>🎥 DJ Videos</h2>
+<!-- VIDEOS -->
+<section id="videos" class="section">
+  <h2>Music Videos</h2>
 
-  <div class="videos">
-    <iframe src="https://youtu.be/aQb68EvslVk?si=25ejK6iouLneGePD" allowfullscreen></iframe>
-    <iframe src="https://youtu.be/1yTKAbA-dkA?si=p7WEDOPzTvRw8b5u" allowfullscreen></iframe>
+  <iframe width="100%" height="315"
+    src="https://www.youtube.com/embed/VIDEO_ID"
+    frameborder="0" allowfullscreen>
+  </iframe>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>📞 WhatsApp: +91XXXXXXXXXX</p>
+  <p>📧 Email: djdorakey@gmail.com</p>
+
+  <div class="social">
+    <a href="#">Instagram</a>
+    <a href="#">YouTube</a>
+    <a href="#">Spotify</a>
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
   © 2026 DJ Dorakey | All Rights Reserved
 </footer>
